@@ -8,8 +8,8 @@ var dbDisplayName = "MainDB";
 //размер бд
 var dbSize = 2 * 1024 * 1024;
 
-function TestShitCode() {
-    alert("Nahuya");
+function TestAlert() {
+    alert("ShitIsWork!!!");
 }
 
 function startDB() {
