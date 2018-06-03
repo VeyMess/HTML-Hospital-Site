@@ -1,0 +1,52 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div id="wrap">
+
+        <div id="header">
+            <h1><a href="#">Сайт поликлиники №3</a></h1>
+            <h2>На сайте присутствует описание и форма записи к врачу.</h2>
+        </div>
+
+        <div id="menu">
+            <ul>
+                <li><a href="main.html">Главная</a></li>
+                <li><a href="#">Описание</a></li>
+                <li><a href="#">Фото</a></li>
+                <li><a href="#">Ссылки</a></li>
+                <li><a href="registration.2.html">Запись к врачу</a></li>
+            </ul>
+        </div>
+
+        <div id="content">
+            <div class="right">
+                <h2>Запись к врачу</h2>
+
+                <form>
+                    <p>Имя: <input name="Name" required/></p>
+                    <p>Email: <input type="email" name="Email" required/></p>
+                    <p>Дата рождения:<input type="date" name="Birth" required/></p>
+                    <p>Выберите врача:
+                        <input type="radio" class="choice" name="Doctor" value="Хряска">Хряскя</input>
+                        <input type="radio" class="choice" name="Doctor" value="Паскун">Паскун</input>
+                        <input type="radio" class="choice" name="Doctor" value="Петров">Петров</input>
+                    </p>
+                    <p>Дата приема:<input type="date" name="DocDate" required/></p>
+                    <p>Время приема:<input type="time" name="DocTime" required/></p>
+                    <p><input type="submit" value="Записаться" onclick="" /></p>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
